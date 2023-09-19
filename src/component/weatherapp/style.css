@@ -89,6 +89,12 @@ body {
     width: 290px;
    
   }
+
+  @media (width >= 491px)and (max-width:640px)
+  {
+   width:290px;
+  }
+
 }
 .widget .weatherInfo .temperature {
   flex: 0 0 40%;
@@ -102,6 +108,12 @@ body {
     width: 30%;
     font-size: 29px;  
   }
+  @media (width >= 491px)and (max-width:640px)
+  {
+   width:30%;
+   font-size: 45px;
+  }
+
   
 }
 .widget .weatherInfo .description {
@@ -126,6 +138,11 @@ body {
  
     font-size: 19px;  
   }
+  @media (width >= 491px)and (max-width:640px)
+  {
+   font-size: 40px;
+  }
+
 }
 .widget .weatherInfo .description .place {
   font-size: 15px;
@@ -133,6 +150,11 @@ body {
   {
     font-size: 14x;  
   }
+  @media (width >= 491px)and (max-width:640px)
+  {
+   font-size: 20px;
+  }
+
 }
 .widget .date {
   flex: 0 0 30%;
@@ -151,6 +173,11 @@ body {
     height: 35%;
     font-size: 15px;  
   }
+  @media (width >= 491px)and (max-width:640px)
+  {
+   font-size: 22px ;
+  }
+
 }
 
 .widget .extra-temp {
